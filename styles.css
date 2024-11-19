@@ -1,0 +1,84 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #054835; 
+    color: #E8D298; 
+    background-image: url('background-texture.png'); 
+    background-repeat: repeat; 
+    background-size: cover; 
+}
+
+header {
+    background: transparent; 
+    color: #E8D298; 
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 2px solid #E8D298;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Secciones */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    background: rgba(7, 61, 43, 0.8); 
+    border: 1px solid #E8D298; 
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #E8D298; /* Dorado */
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#video video {
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid #E8D298;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#fuente {
+    text-align: center; 
+}
+
+#fuente a {
+    display: inline-block; 
+    text-decoration: none;
+    color: #054835;
+    background: #E8D298;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+    margin-top: 1rem; 
+}
+
+#fuente a:hover {
+    background: #D7BB7E;
+    color: #073D2B;
+}
+
+footer {
+    background: rgba(5, 72, 53, 0.9); 
+    color: #E8D298;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
